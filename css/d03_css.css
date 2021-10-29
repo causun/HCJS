@@ -7,3 +7,14 @@ h2{
     padding: 1rem ;
     background-color: antiquewhite;
 }
+/* calss selector*/
+.hot{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: chocolate;
+}
+/*universal selector */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
