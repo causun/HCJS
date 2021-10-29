@@ -2,5 +2,8 @@
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
     color: brown;
-}
+    text-shadow: 3px 3px 3px gainsboro ;
+    box-shadow: goldenrod 3px 3px 3px;
+    padding: 1rem ;
+    background-color: antiquewhite;
 }
