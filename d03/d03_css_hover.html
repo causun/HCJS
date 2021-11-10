@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pseudo-class Demo</title>
+     <link rel="stylesheet" href="../css/d03_css.css">
+     <style>
+         div#khoi1{
+             background-color: salmon;
+              /* padding-top: 1em;
+             padding-bottom: 2em;
+             padding-left: 3em;
+            padding-right: 4em;
+              */
+             padding: 1em 4em 2em 3em;
+             text-align: center;
+         }
+         div#khoi1:hover{
+             background-color: seagreen;
+             color: seashell;
+              
+         }
+         div#khoi1::first-letter{
+             font-family: Georgia, 'Times New Roman', Times, serif;
+             font-family: 2em;
+         }
+         p{
+             display: none;
+             background-color: yellow;
+             padding: 2em;
+             text-align: right;
+         }
+         div#khoi1:hover p{
+             display: block;
+             color:wheat;
+         }
+     </style>
+ </head>
+ <body>
+     <h2>Pseudo-class Demo</h2>
+     <hr>
+     <div style="text-indent: 2em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi officia quia, suscipit repellat quod, sapiente deleniti iste repudiandae modi, hic molestias ducimus itaque. Cupiditate nihil et eveniet explicabo nisi odio!</div>
+
+     <a href="d03_css_unit_vw.html">Go to Apple !</a> <br>
+
+     <div id="khoi1"> Hover Me 
+        <p>Hello,I'm here ! :D</p>
+        
+     </div>
+
+    
+
+ </body>
+ </html>
