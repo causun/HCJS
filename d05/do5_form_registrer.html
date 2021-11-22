@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-register</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <style>
+        form div{
+           margin: .5rem; 
+        }
+        form{
+            width: max-content;
+        }
+        form labl{
+            display: inline-block;
+            width: 6rem;
+        }
+        input[type="sumbit"]{
+            padding: .3rem 1rem;
+            background-color: red;
+            color: whitesmoke;
+            font-weight: bold;
+            border: gainsboro;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML5 Form Demo</h2>
+    <hr>
+
+    <form action="d05_form_login.html">
+        <fieldset>
+            <legend>Register New Member</legend>
+        
+        <div>
+            <label for="">Username</label>
+            <input type="text" name="user" id="usre">
+           </div>
+
+           <div>
+            <label for="">password</label>
+            <input type="password" name="pass" id="pass">
+           </div>
+
+           <div>
+               <label for="">Email</label>
+               <input type="email" name="enail" id="email" value="hoang@gmail.com">
+           </div>
+
+           <div>
+            <label for="">Birthday</label>
+            <input type="date" name="dob" id="dob" 
+            value="2003-09-09"
+            required>
+           </div>
+
+           <div>
+               <label for="">Phone</label>
+               <input type="tel" name="phone" id="phone"
+               pattern="\d{2}-\d{7}">
+           </div>
+
+           <div>
+               <label for="">City</label>
+               <select name="city" id="city">
+                   <option value="SG">SaiGon</option>
+                   <option value="HU">Hue</option>
+                   <option value="HN">HaNoi</option>
+                   <option value="CT">CanTho</option>
+                   <option value="DN">DaNang</option>
+                   <option value="HP">HaiPhong</option>
+               </select>
+           </div>
+
+           <div>
+            <label for="">Gender</label>
+            <input type="radio" name="Gender" id="Gender_male" value="male">Male
+            <input type="radio" name="Gender2" id="Gender_female" value="female">Mamale
+            <input type="radio" name="Gender3" id="Gender_other" value="other">Other
+           </div> 
+
+           <div>
+            <label for="">Favorte Language</label>
+            <input type="checkbox" name="Lang_1" id="lang_1" value="C/C" checked>C/C++
+            <input type="checkbox" name="Lang_2" id="Lang_2" value="Java" checked>Java
+            <input type="checkbox" name="Lang_3" id="Lang_3" value="Python" >Python
+           </div>
+
+           <div>
+               <label for="">RAte</label>
+               <input type="number" name="rate" id="rate" value="5" min="1" max="5"
+               required>
+           </div>
+
+           <div>
+               <label for="">Coment</label>
+              <textarea name="comnet" id="coment" cols="30" rows="4" placeholder="input your comnents"></textarea>
+           </div>
+           <div>
+               <label for="">Favorite color</label>
+               <input type="color" name="color" id="color"
+               value="#FF0000">
+           </div>
+
+        </fieldset>    
+
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>  
+
+    </form>
+</body> 
+</html>
