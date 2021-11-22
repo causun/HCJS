@@ -11,33 +11,73 @@
             text-align: center;
         }
         
-        #id{
-            background-color: lightcyan;
-            padding: 0.5px 0;
-            margin: 1%;
-           display: inline-block;
+        .id{
+            
+            color:brown;
+            font-size: 40px;
+            font-style: italic;
+
+            
+        }
+        a{
+            text-decoration: none;
+            padding: 10px 50px;
+            font-size: 15px;
+        }
+        .link{
+            display: flex;
+            justify-content: space-between;
+            color:blue;
+            height: 60px;
+        }
+        nav{
+            border-top: 1px solid brown;
+            border-bottom: 1px solid brown;
+            padding: 10px 50px;
+        }
+        
+        .left img{
+            height: 400px;
+        }
+        
+        .right img{
+            display: block;
+            height: 20%;
+        }
+        .collection{
+            width: 70%;
+            margin: 0 auto;
+
         }
 
     </style>
 </head>
 <body>
     <img src="../images/anh/p3_logo.png" alt="">
-    <hr>
-    <nav class="id">
-         <a href="#">HOME</a>
-         <a href="#">ACADEMICS</a>
-         <a href="#">RESEARCH</a>
-         <a href="#">About Us</a>
-         <a href="#">E-LIBRARY</a>
-         <a href="#">SIGN UP</a>
-         <a href="#">SIGN IN</a>
+    
+    <nav >
+        <div class="link">
+             <a href="#">HOME</a>
+             <a href="#">ACADEMICS</a>
+             <a href="#">RESEARCH</a>
+             <a class="id" href="#">About Us</a>
+             <a href="#">E-LIBRARY</a>
+             <a href="#">SIGN UP</a>
+             <a href="#">SIGN IN</a>
+        </div>
     </nav>
-    <hr>
-    <img src="../images/anh/p3_pic.PNG" alt="">
-    <img src="../images/anh/p3_pic2.jpg" alt="">
-    <img src="../images/anh/p3_pic3.jpg" alt="">
-    <img src="../images/anh/p3_pic4.jpg" alt="">
-
+    <div class="main">
+        <div class="collection">
+            <div class="left">
+                <img src="../images/anh/p3_pic.PNG" alt="">
+            </div>
+            <div class="right">
+                <img src="../images/anh/p3_pic2.jpg" alt="">
+                <img src="../images/anh/p3_pic3.jpg" alt="">
+                <img src="../images/anh/p3_pic4.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
