@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+         a{
+            text-decoration: none;
+            padding: 10px 50px;
+            font-size: 22px;
+            color: cornsilk;
+        }
+        nav{
+            border-top: 1px solid whitesmoke;
+            border-bottom: 1px solid whitesmoke;
+            padding: 10px 50px;
+            background-color:goldenrod;
+        }
+        form label{
+                   display: inline-block;
+                   width:  10rem; 
+                   height: 3rem;
+                 }
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 10px 50px;
+        }
+        
+                   }
+    </style>
+</head>
+<body>
+    <img src="../images/anhdethi/Logo.PNG" alt="">
+    <nav>
+        <div class="link">
+            <a href="#">Homepage</a>
+            <a href="#">Utilities</a>
+            <a href="#">Share</a>
+            <a href="#">Knowledge</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+            <a href="#">About us</a>
+        </div>
+    </nav>
+    
+    <form action="">
+        <div>
+            <label for="">First name:</label>
+            <input type="text" name="usre" id="user">
+        </div>
+        <div>
+            <label for="">Last name:</label>
+            <input type="text" name="user" id="usre">
+        </div>
+        <div>
+            <label for="">Country:</label>
+            <select name="city" id="city">
+                <option value="VN">VietNam</option>
+                <option value="">India</option>
+                <option value="">Japan</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Gender:</label>
+            <input type="radio" name="Gender" id="Gender_male" >Male
+            <input type="radio" name="Gender2" id="Gender_female" >Mamale
+        </div> 
+        <div>
+            <label for="">Email:</label>
+            <input type="email" name="enail" id="email" value="">
+        </div>
+        <div>
+            <label for="">Telephone:</label>
+            <input type="tel" name="phone" id="phone"
+            pattern="\d{2}-\d{7}">
+        </div>
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div> 
+    </form>
+
+    </form>
+</body>
+</html>
